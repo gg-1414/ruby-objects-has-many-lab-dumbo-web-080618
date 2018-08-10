@@ -17,6 +17,6 @@ class Song
     # => #<Song:0x007ffe219e3c08 @name="Survivor", @artist=#<Artist:0x007ffe219e3a00 @name="Drake">>
     # self.artist
     # => #<Artist:0x007ff92abf7f18 @name="Drake">
-    self.artist == nil ? nil : self.artist.name
+    self.artist.nil? ? nil : self.artist.name
   end
 end
